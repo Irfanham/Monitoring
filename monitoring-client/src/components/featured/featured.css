@@ -1,0 +1,61 @@
+.featured {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.featuredItem {
+  flex: 1 1 140px;
+  margin: 15px 12px 10px 25px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featuredTitle {
+  font-size: 20px;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+
+.featuredValueContainer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: left;
+}
+
+.featuredValue {
+  font-size: 30px;
+  font-weight: 400;
+  color: gray;
+}
+
+.featuredValueRate {
+  display: flex;
+  align-self: flex-end;
+  margin: 2px 3px;
+  font-size: 20px;
+  color: gray;
+}
+
+.featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featuredIcon.negative {
+  color: red;
+}
+
+.featuredSub {
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  margin: 5px 0px 0px 0px;
+}
